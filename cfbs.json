@@ -3,11 +3,11 @@
   "type": "module-repo",
   "description": "This repo only provides 1 module, and is a good starting point for making your own modules",
   "provides": {
-    "my-module": {
-      "description": "This module has a policy file which reports a string to the terminal, and to the inventory system",
-      "tags": ["inventory"],
-      "dependencies": ["autorun"],
-      "steps": ["copy ./my_policy.cf services/autorun/my_policy.cf"]
+    "test-cfbs-versions-with-release-number": {
+      "description": "This module is a test module for testing the inclusion of a release number at the end of version numbers for modules",
+      "tags": ["experimental"],
+      "dependencies": [],
+      "steps": ["copy ./test_release_number.cf.cf services/autorun/my_policy.cf"]
     }
   }
 }

@@ -1,0 +1,7 @@
+bundle agent test_release_number
+{
+  meta:
+    "tags" slist => { "autorun" };
+  reports:
+    "Hello from {this.bundle}";
+}
