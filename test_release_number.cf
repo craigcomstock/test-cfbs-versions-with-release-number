@@ -1,4 +1,4 @@
-bundle agent test_release_number
+bundle agent sudo_requires_password # to test ENT-7914 duplicate another modules bundle name
 {
   meta:
     "tags" slist => { "autorun" };
